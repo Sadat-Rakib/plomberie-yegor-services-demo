@@ -1,6 +1,6 @@
 [
   {
-    "project": "plomberie-yegor-services",
+    "project": "plomberie-yegor-services-website",
     "source": ".",
     "worker": false,
     "files": [
