@@ -1,0 +1,10 @@
+{
+  "name": "plomberie-yegor-services-demo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs --serve"
+  }
+}

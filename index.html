@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta
+      name="description"
+      content="Concept indépendant pour Plomberie Yegor Services à Laval, Québec. Services et coordonnées."
+    />
+    <meta name="theme-color" content="#f5f2ea" />
+    <title>
+      Plomberie Yegor Services — Laval, Québec | Concept indépendant
+    </title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="app.js"></script>
+    <link
+      rel="alternate"
+      hreflang="fr"
+      href="https://plomberie-yegor-services-demo.vercel.app/"
+    />
+    <link
+      rel="alternate"
+      hreflang="en"
+      href="https://plomberie-yegor-services-demo.vercel.app/en.html"
+    />
+  </head>
+  <body class="yegor">
+    <a class="skip" href="#main">Aller au contenu</a>
+    <div class="demo-bar">
+      CONCEPT DE SITE INDÉPENDANT<span
+        >Non officiel · Images d’inspiration</span
+      >
+    </div>
+    <header class="header">
+      <a class="brand" href="#home" aria-label="Plomberie Yegor Services"
+        ><span>YEGOR</span><small>PLOMBERIE · LAVAL</small></a
+      >
+      <div class="nav-wrap">
+        <div class="language" aria-label="Langue">
+          <a href="index.html" lang="fr" aria-current="page">FR</a
+          ><a href="en.html" lang="en">EN</a>
+        </div>
+        <button
+          class="menu-button"
+          aria-expanded="false"
+          aria-controls="navigation"
+          aria-label="Ouvrir la navigation"
+        >
+          Menu<span aria-hidden="true">☰</span>
+        </button>
+        <nav id="navigation" aria-label="Navigation principale">
+          <a href="#services">Services</a><a href="#inspiration">Inspiration</a
+          ><a href="#about">À propos</a
+          ><a href="#contact" class="nav-cta"
+            >Nous joindre <span aria-hidden="true">↗</span></a
+          >
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="hero hero-yegor" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">PLOMBERIE RÉSIDENTIELLE ET COMMERCIALE</p>
+          <h1 data-words>Le confort commence<br />par l’essentiel.</h1>
+          <p class="hero-intro">
+            Une installation à prévoir. Une réparation à discuter. Votre projet
+            de plomberie à Laval commence par une conversation claire.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#contact"
+              >Parlons de votre projet <span aria-hidden="true">↗</span></a
+            ><a class="text-link" href="#services"
+              >Découvrir les services <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+        <figure class="hero-photo">
+          <img
+            src="assets/plumbing.webp"
+            srcset="assets/plumbing-800.webp 800w, assets/plumbing.webp 1600w"
+            sizes="(max-width: 700px) 100vw, 55vw"
+            alt="Salle de bain lumineuse et robinetterie — image d’inspiration"
+            class="hero-image"
+            width="1600"
+            height="1067"
+            fetchpriority="high"
+            decoding="async"
+          /><span class="image-note">Image d’inspiration</span>
+          <div class="technical-tag">
+            <span>Y / 01</span><b>L’essentiel,<br />bien pensé.</b
+            ><span>LAVAL · QUÉBEC</span>
+          </div>
+        </figure>
+        <div class="hero-foot">
+          <span>UNE CONVERSATION CLAIRE, DÈS LE DÉPART.</span
+          ><span>RÉSIDENTIEL / COMMERCIAL</span>
+        </div>
+      </section>
+      <section id="services" class="services section">
+        <div class="section-heading">
+          <p class="eyebrow">01 / LES POSSIBILITÉS</p>
+          <h2 data-reveal>De l’eau qui coule.<br />Des idées qui avancent.</h2>
+          <p>Les détails de votre projet sont le meilleur point de départ.</p>
+        </div>
+        <div class="service-grid" style="--columns: 3">
+          <article class="service-card" data-reveal>
+            <span class="service-number">01</span>
+            <h3>Plomberie résidentielle</h3>
+            <p>
+              Décrivez votre installation, votre réparation ou votre projet à la
+              maison.
+            </p>
+            <a href="#contact" data-service-index="0"
+              >Parlons-en<span aria-hidden="true">↗</span
+              ><span class="sr-only"> — Plomberie résidentielle</span></a
+            >
+          </article>
+          <article class="service-card" data-reveal>
+            <span class="service-number">02</span>
+            <h3>Plomberie commerciale</h3>
+            <p>
+              Discutez des besoins de votre local, du travail à prévoir et de
+              votre échéancier.
+            </p>
+            <a href="#contact" data-service-index="1"
+              >Parlons-en<span aria-hidden="true">↗</span
+              ><span class="sr-only"> — Plomberie commerciale</span></a
+            >
+          </article>
+          <article class="service-card" data-reveal>
+            <span class="service-number">03</span>
+            <h3>Planifier les travaux</h3>
+            <p>
+              Partagez les détails utiles avant de convenir des prochaines
+              étapes.
+            </p>
+            <a href="#contact" data-service-index="2"
+              >Parlons-en<span aria-hidden="true">↗</span
+              ><span class="sr-only"> — Planifier les travaux</span></a
+            >
+          </article>
+        </div>
+      </section>
+      <section id="inspiration" class="gallery-section section">
+        <div class="gallery-heading">
+          <div>
+            <p class="eyebrow">02 / UN PEU D’INSPIRATION</p>
+            <h2 data-reveal>Le soin des détails.</h2>
+          </div>
+          <p>
+            Photographies sous licence présentées à titre d’inspiration. Elles
+            ne montrent pas les réalisations de cette entreprise.
+          </p>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-card" data-reveal data-tone="soft">
+            <button
+              type="button"
+              class="gallery-open"
+              data-image="assets/plumbing.webp"
+              data-caption="Le soin du détail — Photographies sous licence présentées à titre d’inspiration. Elles ne montrent pas les réalisations de cette entreprise."
+              aria-label="Agrandir: Le soin du détail"
+            >
+              <img
+                src="assets/plumbing.webp"
+                srcset="
+                  assets/plumbing-800.webp  800w,
+                  assets/plumbing.webp     1600w
+                "
+                sizes="(max-width: 700px) 100vw, 55vw"
+                alt="Le soin du détail — photographie d’inspiration"
+                class=""
+                width="1600"
+                height="1067"
+                loading="lazy"
+                decoding="async"
+              /><span aria-hidden="true">↗</span>
+            </button>
+            <figcaption>
+              <span>Le soin du détail</span><small>INSPIRATION / 01</small>
+            </figcaption>
+          </figure>
+          <figure class="gallery-card" data-reveal data-tone="soft">
+            <button
+              type="button"
+              class="gallery-open"
+              data-image="assets/clean-kitchen.webp"
+              data-caption="Une cuisine au quotidien — Photographies sous licence présentées à titre d’inspiration. Elles ne montrent pas les réalisations de cette entreprise."
+              aria-label="Agrandir: Une cuisine au quotidien"
+            >
+              <img
+                src="assets/clean-kitchen.webp"
+                srcset="
+                  assets/clean-kitchen-800.webp  800w,
+                  assets/clean-kitchen.webp     1600w
+                "
+                sizes="(max-width: 700px) 100vw, 55vw"
+                alt="Une cuisine au quotidien — photographie d’inspiration"
+                class=""
+                width="1600"
+                height="1067"
+                loading="lazy"
+                decoding="async"
+              /><span aria-hidden="true">↗</span>
+            </button>
+            <figcaption>
+              <span>Une cuisine au quotidien</span
+              ><small>INSPIRATION / 02</small>
+            </figcaption>
+          </figure>
+          <figure class="gallery-card" data-reveal data-tone="soft">
+            <button
+              type="button"
+              class="gallery-open"
+              data-image="assets/clean-home.webp"
+              data-caption="Le confort chez soi — Photographies sous licence présentées à titre d’inspiration. Elles ne montrent pas les réalisations de cette entreprise."
+              aria-label="Agrandir: Le confort chez soi"
+            >
+              <img
+                src="assets/clean-home.webp"
+                srcset="
+                  assets/clean-home-800.webp  800w,
+                  assets/clean-home.webp     1600w
+                "
+                sizes="(max-width: 700px) 100vw, 55vw"
+                alt="Le confort chez soi — photographie d’inspiration"
+                class=""
+                width="1600"
+                height="1067"
+                loading="lazy"
+                decoding="async"
+              /><span aria-hidden="true">↗</span>
+            </button>
+            <figcaption>
+              <span>Le confort chez soi</span><small>INSPIRATION / 03</small>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section id="about" class="about section">
+        <p class="eyebrow">03 / Laval, Québec</p>
+        <div class="about-grid">
+          <h2 data-reveal>Une nouvelle adresse<br />pour vos projets.</h2>
+          <div>
+            <p>
+              Plomberie Yegor Services est une entreprise de plomberie à Laval.
+              Présentez votre besoin, votre emplacement et les particularités de
+              votre projet pour discuter de la portée des travaux et des
+              disponibilités.
+            </p>
+            <a
+              class="text-link"
+              href="https://www.facebook.com/61595149899918"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Rencontrons-nous sur Facebook
+              <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+        <div class="process">
+          <div data-reveal>
+            <span>01</span>
+            <h3>Décrivez votre besoin</h3>
+            <p>Partagez le besoin, le lieu et vos idées.</p>
+          </div>
+          <div data-reveal>
+            <span>02</span>
+            <h3>Précisez le projet</h3>
+            <p>Échangez sur les exigences et les possibilités.</p>
+          </div>
+          <div data-reveal>
+            <span>03</span>
+            <h3>Convenez de la suite</h3>
+            <p>Confirmez la disponibilité et les prochaines étapes.</p>
+          </div>
+        </div>
+      </section>
+      <section class="faq section">
+        <div>
+          <p class="eyebrow">QUELQUES QUESTIONS</p>
+          <h2 data-reveal>Avant de commencer.</h2>
+        </div>
+        <div>
+          <details>
+            <summary>
+              Comment commencer ?<span aria-hidden="true">+</span>
+            </summary>
+            <p>
+              Décrivez votre besoin et votre emplacement. Communiquez ensuite
+              directement avec l’entreprise pour discuter de la portée et des
+              prochaines étapes.
+            </p>
+          </details>
+          <details>
+            <summary>
+              Puis-je réserver sur ce site ?<span aria-hidden="true">+</span>
+            </summary>
+            <p>
+              Ce concept prépare un message localement. Il n’envoie aucune
+              demande et ne confirme aucun rendez-vous.
+            </p>
+          </details>
+          <details>
+            <summary>
+              Comment obtenir un prix ?<span aria-hidden="true">+</span>
+            </summary>
+            <p>
+              Le prix et les disponibilités sont à confirmer directement selon
+              votre projet.
+            </p>
+          </details>
+        </div>
+      </section>
+      <section class="contact section" id="contact">
+        <div class="contact-copy">
+          <p class="eyebrow">LA PROCHAINE ÉTAPE</p>
+          <h2 data-reveal>Un projet en tête ?</h2>
+          <p>
+            Préparez les grandes lignes de votre demande, puis communiquez
+            directement par téléphone, courriel ou Facebook.
+          </p>
+          <div class="contact-routes">
+            <a class="phone-link" href="tel:+14388764048"
+              >438-876-4048 <span aria-hidden="true">↗</span></a
+            ><a
+              class="email-link"
+              href="mailto:contact@plomberieyegorservices.com"
+              >contact@plomberieyegorservices.com
+              <span aria-hidden="true">↗</span></a
+            ><a
+              class="text-link"
+              href="https://www.facebook.com/61595149899918"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Continuer sur Facebook <span aria-hidden="true">↗</span></a
+            >
+          </div>
+          <p class="small-note">
+            Ce site est un concept indépendant. Les coordonnées proviennent des
+            sources publiques ou du dossier fourni.
+          </p>
+        </div>
+        <form
+          class="inquiry-form"
+          data-lang="fr"
+          data-email="contact@plomberieyegorservices.com"
+          data-business="Plomberie Yegor Services"
+        >
+          <h3>Commençons par quelques détails.</h3>
+          <p class="form-intro">
+            Préparez un message à copier ou à ouvrir dans votre application de
+            courriel.
+          </p>
+          <div class="field-row">
+            <label
+              >Votre nom<input
+                name="name"
+                autocomplete="name"
+                required
+                maxlength="100" /></label
+            ><label
+              >Votre secteur<input
+                name="area"
+                autocomplete="address-level2"
+                required
+                maxlength="100"
+            /></label>
+          </div>
+          <label
+            >Votre besoin<select name="service">
+              <option>Plomberie résidentielle</option>
+              <option>Plomberie commerciale</option>
+              <option>Demande de renseignements</option>
+            </select></label
+          ><label
+            >Quelques détails<textarea
+              name="details"
+              rows="3"
+              required
+              maxlength="2000"
+            ></textarea></label
+          ><button type="submit" class="button">
+            Préparer ma demande <span aria-hidden="true">↗</span>
+          </button>
+          <p class="small-note">
+            Aucune demande n’est envoyée ni enregistrée. Contactez l’entreprise
+            directement pour convenir de la suite.
+          </p>
+          <div class="prepared" hidden>
+            <label
+              >Votre message<textarea
+                name="prepared-message"
+                rows="7"
+                readonly
+              ></textarea></label
+            ><button type="button" class="copy-message text-link">
+              Copier le message <span aria-hidden="true">↗</span>
+            </button>
+            <p class="copy-status" role="status"></p>
+            <a
+              class="email-message text-link"
+              href="mailto:contact@plomberieyegorservices.com"
+              >Écrire un courriel <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-brand">YEGOR</div>
+      <div class="footer-line">
+        <span>Laval, Québec</span><a href="#home">Retour en haut ↑</a>
+      </div>
+      <p>
+        Concept indépendant et spéculatif. Aucune affiliation ni approbation de
+        l’entreprise. Images sous licence à titre d’inspiration. Confirmez les
+        services et disponibilités directement.
+      </p>
+      <a href="CREDITS.md">Images et sources</a>
+    </footer>
+    <dialog class="lightbox">
+      <button type="button" class="lightbox-close" autofocus>Fermer ×</button
+      ><img alt="" />
+      <p></p>
+    </dialog>
+  </body>
+</html>
